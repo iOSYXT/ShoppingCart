@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB527B641DAFD6EE0091E4AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B631DAFD6EE0091E4AD /* main.m */; };
+		DB527B671DAFD6EE0091E4AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B661DAFD6EE0091E4AD /* AppDelegate.m */; };
+		DB527B6A1DAFD6EE0091E4AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B691DAFD6EE0091E4AD /* ViewController.m */; };
+		DB527B6D1DAFD6EE0091E4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB527B6B1DAFD6EE0091E4AD /* Main.storyboard */; };
+		DB527B6F1DAFD6EE0091E4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB527B6E1DAFD6EE0091E4AD /* Assets.xcassets */; };
+		DB527B721DAFD6EE0091E4AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB527B701DAFD6EE0091E4AD /* LaunchScreen.storyboard */; };
+		DB527B7D1DAFD6EE0091E4AD /* ShoppingCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B7C1DAFD6EE0091E4AD /* ShoppingCartTests.m */; };
+		DB527B881DAFD6EE0091E4AD /* ShoppingCartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B871DAFD6EE0091E4AD /* ShoppingCartUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB527B791DAFD6EE0091E4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB527B571DAFD6ED0091E4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB527B5E1DAFD6ED0091E4AD;
+			remoteInfo = ShoppingCart;
+		};
+		DB527B841DAFD6EE0091E4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB527B571DAFD6ED0091E4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB527B5E1DAFD6ED0091E4AD;
+			remoteInfo = ShoppingCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB527B5F1DAFD6EE0091E4AD /* ShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB527B631DAFD6EE0091E4AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB527B651DAFD6EE0091E4AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB527B661DAFD6EE0091E4AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB527B681DAFD6EE0091E4AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB527B691DAFD6EE0091E4AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB527B6C1DAFD6EE0091E4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB527B6E1DAFD6EE0091E4AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB527B711DAFD6EE0091E4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB527B731DAFD6EE0091E4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB527B781DAFD6EE0091E4AD /* ShoppingCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB527B7C1DAFD6EE0091E4AD /* ShoppingCartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartTests.m; sourceTree = "<group>"; };
+		DB527B7E1DAFD6EE0091E4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB527B831DAFD6EE0091E4AD /* ShoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB527B871DAFD6EE0091E4AD /* ShoppingCartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartUITests.m; sourceTree = "<group>"; };
+		DB527B891DAFD6EE0091E4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB527B5C1DAFD6ED0091E4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB527B751DAFD6EE0091E4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB527B801DAFD6EE0091E4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB527B561DAFD6ED0091E4AD = {
+			isa = PBXGroup;
+			children = (
+				DB527B611DAFD6EE0091E4AD /* ShoppingCart */,
+				DB527B7B1DAFD6EE0091E4AD /* ShoppingCartTests */,
+				DB527B861DAFD6EE0091E4AD /* ShoppingCartUITests */,
+				DB527B601DAFD6EE0091E4AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB527B601DAFD6EE0091E4AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB527B5F1DAFD6EE0091E4AD /* ShoppingCart.app */,
+				DB527B781DAFD6EE0091E4AD /* ShoppingCartTests.xctest */,
+				DB527B831DAFD6EE0091E4AD /* ShoppingCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB527B611DAFD6EE0091E4AD /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				DB527B651DAFD6EE0091E4AD /* AppDelegate.h */,
+				DB527B661DAFD6EE0091E4AD /* AppDelegate.m */,
+				DB527B681DAFD6EE0091E4AD /* ViewController.h */,
+				DB527B691DAFD6EE0091E4AD /* ViewController.m */,
+				DB527B6B1DAFD6EE0091E4AD /* Main.storyboard */,
+				DB527B6E1DAFD6EE0091E4AD /* Assets.xcassets */,
+				DB527B701DAFD6EE0091E4AD /* LaunchScreen.storyboard */,
+				DB527B731DAFD6EE0091E4AD /* Info.plist */,
+				DB527B621DAFD6EE0091E4AD /* Supporting Files */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		DB527B621DAFD6EE0091E4AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB527B631DAFD6EE0091E4AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB527B7B1DAFD6EE0091E4AD /* ShoppingCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB527B7C1DAFD6EE0091E4AD /* ShoppingCartTests.m */,
+				DB527B7E1DAFD6EE0091E4AD /* Info.plist */,
+			);
+			path = ShoppingCartTests;
+			sourceTree = "<group>";
+		};
+		DB527B861DAFD6EE0091E4AD /* ShoppingCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB527B871DAFD6EE0091E4AD /* ShoppingCartUITests.m */,
+				DB527B891DAFD6EE0091E4AD /* Info.plist */,
+			);
+			path = ShoppingCartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB527B5E1DAFD6ED0091E4AD /* ShoppingCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB527B8C1DAFD6EE0091E4AD /* Build configuration list for PBXNativeTarget "ShoppingCart" */;
+			buildPhases = (
+				DB527B5B1DAFD6ED0091E4AD /* Sources */,
+				DB527B5C1DAFD6ED0091E4AD /* Frameworks */,
+				DB527B5D1DAFD6ED0091E4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingCart;
+			productName = ShoppingCart;
+			productReference = DB527B5F1DAFD6EE0091E4AD /* ShoppingCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB527B771DAFD6EE0091E4AD /* ShoppingCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB527B8F1DAFD6EE0091E4AD /* Build configuration list for PBXNativeTarget "ShoppingCartTests" */;
+			buildPhases = (
+				DB527B741DAFD6EE0091E4AD /* Sources */,
+				DB527B751DAFD6EE0091E4AD /* Frameworks */,
+				DB527B761DAFD6EE0091E4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB527B7A1DAFD6EE0091E4AD /* PBXTargetDependency */,
+			);
+			name = ShoppingCartTests;
+			productName = ShoppingCartTests;
+			productReference = DB527B781DAFD6EE0091E4AD /* ShoppingCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB527B821DAFD6EE0091E4AD /* ShoppingCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB527B921DAFD6EE0091E4AD /* Build configuration list for PBXNativeTarget "ShoppingCartUITests" */;
+			buildPhases = (
+				DB527B7F1DAFD6EE0091E4AD /* Sources */,
+				DB527B801DAFD6EE0091E4AD /* Frameworks */,
+				DB527B811DAFD6EE0091E4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB527B851DAFD6EE0091E4AD /* PBXTargetDependency */,
+			);
+			name = ShoppingCartUITests;
+			productName = ShoppingCartUITests;
+			productReference = DB527B831DAFD6EE0091E4AD /* ShoppingCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB527B571DAFD6ED0091E4AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YXT;
+				TargetAttributes = {
+					DB527B5E1DAFD6ED0091E4AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DB527B771DAFD6EE0091E4AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB527B5E1DAFD6ED0091E4AD;
+					};
+					DB527B821DAFD6EE0091E4AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB527B5E1DAFD6ED0091E4AD;
+					};
+				};
+			};
+			buildConfigurationList = DB527B5A1DAFD6ED0091E4AD /* Build configuration list for PBXProject "ShoppingCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB527B561DAFD6ED0091E4AD;
+			productRefGroup = DB527B601DAFD6EE0091E4AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB527B5E1DAFD6ED0091E4AD /* ShoppingCart */,
+				DB527B771DAFD6EE0091E4AD /* ShoppingCartTests */,
+				DB527B821DAFD6EE0091E4AD /* ShoppingCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB527B5D1DAFD6ED0091E4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB527B721DAFD6EE0091E4AD /* LaunchScreen.storyboard in Resources */,
+				DB527B6F1DAFD6EE0091E4AD /* Assets.xcassets in Resources */,
+				DB527B6D1DAFD6EE0091E4AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB527B761DAFD6EE0091E4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB527B811DAFD6EE0091E4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB527B5B1DAFD6ED0091E4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB527B6A1DAFD6EE0091E4AD /* ViewController.m in Sources */,
+				DB527B671DAFD6EE0091E4AD /* AppDelegate.m in Sources */,
+				DB527B641DAFD6EE0091E4AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB527B741DAFD6EE0091E4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB527B7D1DAFD6EE0091E4AD /* ShoppingCartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB527B7F1DAFD6EE0091E4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB527B881DAFD6EE0091E4AD /* ShoppingCartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB527B7A1DAFD6EE0091E4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB527B5E1DAFD6ED0091E4AD /* ShoppingCart */;
+			targetProxy = DB527B791DAFD6EE0091E4AD /* PBXContainerItemProxy */;
+		};
+		DB527B851DAFD6EE0091E4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB527B5E1DAFD6ED0091E4AD /* ShoppingCart */;
+			targetProxy = DB527B841DAFD6EE0091E4AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB527B6B1DAFD6EE0091E4AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB527B6C1DAFD6EE0091E4AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB527B701DAFD6EE0091E4AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB527B711DAFD6EE0091E4AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB527B8A1DAFD6EE0091E4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB527B8B1DAFD6EE0091E4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB527B8D1DAFD6EE0091E4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShoppingCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.ShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB527B8E1DAFD6EE0091E4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShoppingCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.ShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB527B901DAFD6EE0091E4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShoppingCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.ShoppingCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingCart.app/ShoppingCart";
+			};
+			name = Debug;
+		};
+		DB527B911DAFD6EE0091E4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShoppingCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.ShoppingCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingCart.app/ShoppingCart";
+			};
+			name = Release;
+		};
+		DB527B931DAFD6EE0091E4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShoppingCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.ShoppingCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShoppingCart;
+			};
+			name = Debug;
+		};
+		DB527B941DAFD6EE0091E4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShoppingCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YXT.ShoppingCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShoppingCart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB527B5A1DAFD6ED0091E4AD /* Build configuration list for PBXProject "ShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB527B8A1DAFD6EE0091E4AD /* Debug */,
+				DB527B8B1DAFD6EE0091E4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB527B8C1DAFD6EE0091E4AD /* Build configuration list for PBXNativeTarget "ShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB527B8D1DAFD6EE0091E4AD /* Debug */,
+				DB527B8E1DAFD6EE0091E4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB527B8F1DAFD6EE0091E4AD /* Build configuration list for PBXNativeTarget "ShoppingCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB527B901DAFD6EE0091E4AD /* Debug */,
+				DB527B911DAFD6EE0091E4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB527B921DAFD6EE0091E4AD /* Build configuration list for PBXNativeTarget "ShoppingCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB527B931DAFD6EE0091E4AD /* Debug */,
+				DB527B941DAFD6EE0091E4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB527B571DAFD6ED0091E4AD /* Project object */;
+}
