@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		DB527B641DAFD6EE0091E4AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B631DAFD6EE0091E4AD /* main.m */; };
 		DB527B671DAFD6EE0091E4AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B661DAFD6EE0091E4AD /* AppDelegate.m */; };
-		DB527B6A1DAFD6EE0091E4AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B691DAFD6EE0091E4AD /* ViewController.m */; };
-		DB527B6D1DAFD6EE0091E4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB527B6B1DAFD6EE0091E4AD /* Main.storyboard */; };
 		DB527B6F1DAFD6EE0091E4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB527B6E1DAFD6EE0091E4AD /* Assets.xcassets */; };
 		DB527B721DAFD6EE0091E4AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB527B701DAFD6EE0091E4AD /* LaunchScreen.storyboard */; };
 		DB527B7D1DAFD6EE0091E4AD /* ShoppingCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B7C1DAFD6EE0091E4AD /* ShoppingCartTests.m */; };
 		DB527B881DAFD6EE0091E4AD /* ShoppingCartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B871DAFD6EE0091E4AD /* ShoppingCartUITests.m */; };
+		DB527B9F1DAFD82B0091E4AD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B961DAFD82B0091E4AD /* RootViewController.m */; };
+		DB527BA01DAFD82B0091E4AD /* ShopCart.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB527B971DAFD82B0091E4AD /* ShopCart.plist */; };
+		DB527BA11DAFD82B0091E4AD /* YXTShopCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B9A1DAFD82B0091E4AD /* YXTShopCartCell.m */; };
+		DB527BA21DAFD82B0091E4AD /* YXTShopCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B9C1DAFD82B0091E4AD /* YXTShopCartModel.m */; };
+		DB527BA31DAFD82B0091E4AD /* YXTShopCartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB527B9E1DAFD82B0091E4AD /* YXTShopCartView.m */; };
+		DB527BAC1DAFD8A70091E4AD /* 减少.png in Resources */ = {isa = PBXBuildFile; fileRef = DB527BA51DAFD8A70091E4AD /* 减少.png */; };
+		DB527BAD1DAFD8A70091E4AD /* 占位头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB527BA61DAFD8A70091E4AD /* 占位头像.jpg */; };
+		DB527BAE1DAFD8A70091E4AD /* 增加.png in Resources */ = {isa = PBXBuildFile; fileRef = DB527BA71DAFD8A70091E4AD /* 增加.png */; };
+		DB527BAF1DAFD8A70091E4AD /* 复选框-未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = DB527BA81DAFD8A70091E4AD /* 复选框-未选中.png */; };
+		DB527BB01DAFD8A70091E4AD /* 复选框-选中.png in Resources */ = {isa = PBXBuildFile; fileRef = DB527BA91DAFD8A70091E4AD /* 复选框-选中.png */; };
+		DB527BB11DAFD8A70091E4AD /* 定位中.png in Resources */ = {isa = PBXBuildFile; fileRef = DB527BAA1DAFD8A70091E4AD /* 定位中.png */; };
+		DB527BB21DAFD8A70091E4AD /* 空.png in Resources */ = {isa = PBXBuildFile; fileRef = DB527BAB1DAFD8A70091E4AD /* 空.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +49,6 @@
 		DB527B631DAFD6EE0091E4AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB527B651DAFD6EE0091E4AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB527B661DAFD6EE0091E4AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB527B681DAFD6EE0091E4AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB527B691DAFD6EE0091E4AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DB527B6C1DAFD6EE0091E4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB527B6E1DAFD6EE0091E4AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB527B711DAFD6EE0091E4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB527B731DAFD6EE0091E4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +58,22 @@
 		DB527B831DAFD6EE0091E4AD /* ShoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB527B871DAFD6EE0091E4AD /* ShoppingCartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartUITests.m; sourceTree = "<group>"; };
 		DB527B891DAFD6EE0091E4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB527B951DAFD82B0091E4AD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DB527B961DAFD82B0091E4AD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DB527B971DAFD82B0091E4AD /* ShopCart.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShopCart.plist; sourceTree = "<group>"; };
+		DB527B991DAFD82B0091E4AD /* YXTShopCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXTShopCartCell.h; sourceTree = "<group>"; };
+		DB527B9A1DAFD82B0091E4AD /* YXTShopCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTShopCartCell.m; sourceTree = "<group>"; };
+		DB527B9B1DAFD82B0091E4AD /* YXTShopCartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXTShopCartModel.h; sourceTree = "<group>"; };
+		DB527B9C1DAFD82B0091E4AD /* YXTShopCartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTShopCartModel.m; sourceTree = "<group>"; };
+		DB527B9D1DAFD82B0091E4AD /* YXTShopCartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXTShopCartView.h; sourceTree = "<group>"; };
+		DB527B9E1DAFD82B0091E4AD /* YXTShopCartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXTShopCartView.m; sourceTree = "<group>"; };
+		DB527BA51DAFD8A70091E4AD /* 减少.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减少.png"; sourceTree = "<group>"; };
+		DB527BA61DAFD8A70091E4AD /* 占位头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "占位头像.jpg"; sourceTree = "<group>"; };
+		DB527BA71DAFD8A70091E4AD /* 增加.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "增加.png"; sourceTree = "<group>"; };
+		DB527BA81DAFD8A70091E4AD /* 复选框-未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复选框-未选中.png"; sourceTree = "<group>"; };
+		DB527BA91DAFD8A70091E4AD /* 复选框-选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复选框-选中.png"; sourceTree = "<group>"; };
+		DB527BAA1DAFD8A70091E4AD /* 定位中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位中.png"; sourceTree = "<group>"; };
+		DB527BAB1DAFD8A70091E4AD /* 空.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +126,11 @@
 			children = (
 				DB527B651DAFD6EE0091E4AD /* AppDelegate.h */,
 				DB527B661DAFD6EE0091E4AD /* AppDelegate.m */,
-				DB527B681DAFD6EE0091E4AD /* ViewController.h */,
-				DB527B691DAFD6EE0091E4AD /* ViewController.m */,
-				DB527B6B1DAFD6EE0091E4AD /* Main.storyboard */,
+				DB527B951DAFD82B0091E4AD /* RootViewController.h */,
+				DB527B961DAFD82B0091E4AD /* RootViewController.m */,
+				DB527B971DAFD82B0091E4AD /* ShopCart.plist */,
+				DB527BA41DAFD8A70091E4AD /* icon */,
+				DB527B981DAFD82B0091E4AD /* ShopCart(购物车) */,
 				DB527B6E1DAFD6EE0091E4AD /* Assets.xcassets */,
 				DB527B701DAFD6EE0091E4AD /* LaunchScreen.storyboard */,
 				DB527B731DAFD6EE0091E4AD /* Info.plist */,
@@ -138,6 +163,33 @@
 				DB527B891DAFD6EE0091E4AD /* Info.plist */,
 			);
 			path = ShoppingCartUITests;
+			sourceTree = "<group>";
+		};
+		DB527B981DAFD82B0091E4AD /* ShopCart(购物车) */ = {
+			isa = PBXGroup;
+			children = (
+				DB527B991DAFD82B0091E4AD /* YXTShopCartCell.h */,
+				DB527B9A1DAFD82B0091E4AD /* YXTShopCartCell.m */,
+				DB527B9B1DAFD82B0091E4AD /* YXTShopCartModel.h */,
+				DB527B9C1DAFD82B0091E4AD /* YXTShopCartModel.m */,
+				DB527B9D1DAFD82B0091E4AD /* YXTShopCartView.h */,
+				DB527B9E1DAFD82B0091E4AD /* YXTShopCartView.m */,
+			);
+			path = "ShopCart(购物车)";
+			sourceTree = "<group>";
+		};
+		DB527BA41DAFD8A70091E4AD /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				DB527BA51DAFD8A70091E4AD /* 减少.png */,
+				DB527BA61DAFD8A70091E4AD /* 占位头像.jpg */,
+				DB527BA71DAFD8A70091E4AD /* 增加.png */,
+				DB527BA81DAFD8A70091E4AD /* 复选框-未选中.png */,
+				DB527BA91DAFD8A70091E4AD /* 复选框-选中.png */,
+				DB527BAA1DAFD8A70091E4AD /* 定位中.png */,
+				DB527BAB1DAFD8A70091E4AD /* 空.png */,
+			);
+			path = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +298,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB527BB11DAFD8A70091E4AD /* 定位中.png in Resources */,
+				DB527BAD1DAFD8A70091E4AD /* 占位头像.jpg in Resources */,
+				DB527BAE1DAFD8A70091E4AD /* 增加.png in Resources */,
+				DB527BA01DAFD82B0091E4AD /* ShopCart.plist in Resources */,
+				DB527BAC1DAFD8A70091E4AD /* 减少.png in Resources */,
+				DB527BB01DAFD8A70091E4AD /* 复选框-选中.png in Resources */,
+				DB527BB21DAFD8A70091E4AD /* 空.png in Resources */,
 				DB527B721DAFD6EE0091E4AD /* LaunchScreen.storyboard in Resources */,
 				DB527B6F1DAFD6EE0091E4AD /* Assets.xcassets in Resources */,
-				DB527B6D1DAFD6EE0091E4AD /* Main.storyboard in Resources */,
+				DB527BAF1DAFD8A70091E4AD /* 复选框-未选中.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB527B6A1DAFD6EE0091E4AD /* ViewController.m in Sources */,
 				DB527B671DAFD6EE0091E4AD /* AppDelegate.m in Sources */,
+				DB527BA11DAFD82B0091E4AD /* YXTShopCartCell.m in Sources */,
 				DB527B641DAFD6EE0091E4AD /* main.m in Sources */,
+				DB527B9F1DAFD82B0091E4AD /* RootViewController.m in Sources */,
+				DB527BA31DAFD82B0091E4AD /* YXTShopCartView.m in Sources */,
+				DB527BA21DAFD82B0091E4AD /* YXTShopCartModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB527B6B1DAFD6EE0091E4AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB527B6C1DAFD6EE0091E4AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB527B701DAFD6EE0091E4AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
